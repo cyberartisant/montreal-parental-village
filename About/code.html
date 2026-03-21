@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us &amp; Impact | Montreal Parental Village</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "outline": "#926e6b",
+              "on-background": "#1a1c1d",
+              "tertiary-fixed-dim": "#c8c6c6",
+              "tertiary-container": "#757474",
+              "on-surface": "#1a1c1d",
+              "tertiary": "#5c5c5c",
+              "surface-container": "#eeedf0",
+              "on-tertiary": "#ffffff",
+              "on-primary-fixed-variant": "#930014",
+              "primary": "#1F4E79",
+              "on-tertiary-fixed-variant": "#474747",
+              "outline-variant": "#D6E4F0",
+              "surface-container-highest": "#e2e2e4",
+              "on-secondary-fixed-variant": "#004c6d",
+              "on-error-container": "#93000a",
+              "secondary": "#2E75B6",
+              "primary-container": "#2E75B6",
+              "primary-fixed": "#ffdad7",
+              "on-secondary-fixed": "#001e2e",
+              "secondary-fixed-dim": "#86ceff",
+              "secondary-fixed": "#c8e6ff",
+              "on-error": "#ffffff",
+              "error": "#ba1a1a",
+              "on-surface-variant": "#5e3f3d",
+              "surface": "#EBF3FB",
+              "secondary-container": "#70c7fe",
+              "on-primary-container": "#fffbff",
+              "surface-tint": "#c0001e",
+              "surface-variant": "#e2e2e4",
+              "surface-container-low": "#f4f3f5",
+              "inverse-surface": "#2f3032",
+              "on-primary-fixed": "#410004",
+              "on-tertiary-fixed": "#1b1c1c",
+              "primary-fixed-dim": "#ffb3ae",
+              "on-tertiary-container": "#fffcfb",
+              "on-secondary-container": "#005276",
+              "surface-container-lowest": "#ffffff",
+              "on-primary": "#ffffff",
+              "background": "#EBF3FB",
+              "error-container": "#ffdad6",
+              "inverse-primary": "#ffb3ae",
+              "tertiary-fixed": "#e4e2e1",
+              "on-secondary": "#ffffff",
+              "surface-dim": "#dadadc",
+              "inverse-on-surface": "#f1f0f2",
+              "surface-container-high": "#e8e8ea",
+              "surface-bright": "#EBF3FB"
+            },
+            fontFamily: {
+              "headline": ["Lora"],
+              "body": ["Open Sans"],
+              "label": ["Open Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-nav {
+        background: rgba(235, 243, 251, 0.8);
+        backdrop-filter: blur(20px);
+      }
+      .bg-primary-gradient {
+        background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%);
+      }
+      .text-balance { text-wrap: balance; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 glass-nav shadow-sm">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<a href="../code.html" class="flex items-center gap-3 text-xl font-black text-[#1F4E79] tracking-tighter font-headline"><img src="../MPV_logo.png" alt="MPV Logo" class="h-10 w-auto"/>Montreal Parental Village</a>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors font-body text-sm" href="../Services/code.html">Get Help</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors font-body text-sm" href="../Volunteer/code.html">Volunteer</a>
+<a class="text-[#1F4E79] font-bold border-b-2 border-[#1F4E79] pb-1 font-body text-sm" href="../About/code.html">About Us</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors font-body text-sm" href="#impact">Impact</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors font-body text-sm" href="../Contact/code.html">Contact</a>
+</nav>
+<a href="../Donate/code.html" class="bg-primary-gradient text-on-primary px-6 py-2.5 rounded-md text-sm font-bold tracking-wider uppercase active:scale-95 duration-200 shadow-md">
+                Donate
+            </a>
+</div>
+<div class="bg-slate-100 h-[1px] w-full"></div>
+</header>
+<main class="pt-16">
+<!-- Hero Section -->
+<section class="relative h-[819px] min-h-[600px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Montreal Community Center" class="w-full h-full object-cover grayscale brightness-50 contrast-125" data-alt="Monochrome image of diverse parents supporting each other in Montreal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPojdsgKFOytO5d62wEzsEnQsG8lkCrEXItC_SVnkwjQuoQ2T0V5z1eq_E2FxF9IywO-LncmIwGvKSXd7Jw-kIXJoaTQuh04B6eXCi6CT6qHCt28BJNiEYcBP5EYAm3heWiygbFl79--2MGA0tPoYIqxNq_AnbVuHsD5CE1nb_3fq4TKezU7Cx43Sh-svi7m_Dv-XM8oa3IeyLT2AxwRzGcuGSolAVDp3tCZmbJcZ0rK0vktPStM22OvkzLs2cS2PcfBSe91M0A6s"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-2xl">
+<span class="inline-block px-3 py-1 mb-6 text-xs font-bold tracking-widest text-on-primary bg-primary rounded-sm uppercase">EST. 2015</span>
+<h1 class="text-6xl md:text-8xl font-black font-headline text-white leading-tight tracking-tighter text-balance">
+                        Our Commitment to Every Family in Montreal.
+                    </h1>
+<p class="mt-8 text-xl text-white/80 font-body leading-relaxed max-w-xl">
+                        We are more than an organization — we are a community built on the belief that every single parent deserves support, understanding, and the chance to thrive.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Our Story Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="max-w-3xl">
+<h2 class="text-4xl font-black font-headline tracking-tight text-on-surface mb-8">Our Story</h2>
+<p class="text-on-surface-variant leading-relaxed text-lg mb-6">
+                    Montreal Parental Village was born out of a recognition that single parents in our city faced enormous challenges — not just financial, but emotional and social. Too many were navigating parenthood in isolation, without the network of support that makes all the difference.
+                </p>
+<p class="text-on-surface-variant leading-relaxed text-lg">
+                    We set out to change that. By bringing together single parents, community volunteers, local organizations, and advocates, we have built a village right here in Montreal — a place where no parent is left to face the journey alone.
+                </p>
+</div>
+</div>
+</section>
+<!-- Mission & Vision -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+<div class="space-y-6 group">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center text-primary transition-transform group-hover:-translate-y-1">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">anchor</span>
+</div>
+<h3 class="text-2xl font-bold font-headline tracking-tight">Our Mission</h3>
+<p class="text-on-surface-variant leading-relaxed">Montreal Parental Village exists to support single parents by building a strong, inclusive community rooted in mutual aid, practical support, and shared responsibility. Guided by the belief that it takes a village, we work to reduce isolation, strengthen family stability, and ensure that no parent has to navigate parenting alone.</p>
+<p class="text-on-surface-variant leading-relaxed">Our mission is to help single parents access the resources and community support they need to achieve financial stability and family well-being.</p>
+</div>
+<div class="space-y-6 group">
+<div class="w-14 h-14 rounded-lg bg-surface-container-high flex items-center justify-center text-primary transition-transform group-hover:-translate-y-1">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">visibility</span>
+</div>
+<h3 class="text-2xl font-bold font-headline tracking-tight">Our Vision</h3>
+<p class="text-on-surface-variant leading-relaxed">We envision a Montreal where every single-parent family has the tools, confidence, and community they need to flourish — where challenges become opportunities and every parent feels valued, understood, and empowered to succeed.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Values Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="text-4xl font-black font-headline tracking-tight text-on-surface">Our Values</h2>
+<p class="text-on-surface-variant mt-4 text-lg">The principles that guide everything we do.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest rounded-lg p-8 border-l-4 border-primary">
+<h4 class="font-bold font-headline text-lg mb-3">Community First</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">We believe in the transformative power of belonging and mutual support.</p>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-8 border-l-4 border-secondary">
+<h4 class="font-bold font-headline text-lg mb-3">Inclusion</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Every single parent, regardless of background or circumstance, is welcome here.</p>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-8 border-l-4 border-primary">
+<h4 class="font-bold font-headline text-lg mb-3">Empowerment</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">We build confidence and capability, not dependency.</p>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-8 border-l-4 border-secondary">
+<h4 class="font-bold font-headline text-lg mb-3">Dignity</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">We treat every family with respect and compassion.</p>
+</div>
+<div class="bg-surface-container-lowest rounded-lg p-8 border-l-4 border-primary">
+<h4 class="font-bold font-headline text-lg mb-3">Collaboration</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">We work hand-in-hand with local partners to provide holistic support.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- What We Do Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="text-4xl font-black font-headline tracking-tight text-on-surface">What We Do</h2>
+<p class="text-on-surface-variant mt-4 text-lg">Five core programs that form the foundation of our village.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-surface-container-lowest p-8 rounded-lg group hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-[#D6E4F0] rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined">diversity_3</span>
+</div>
+<h4 class="font-bold font-headline text-lg mb-3">Peer Mentoring</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Connecting parents with experienced mentors who understand their journey.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg group hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-[#D6E4F0] rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined">school</span>
+</div>
+<h4 class="font-bold font-headline text-lg mb-3">Workshops &amp; Training</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Practical skill-building in areas like budgeting, employment, and parenting.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg group hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-[#D6E4F0] rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<h4 class="font-bold font-headline text-lg mb-3">Resource Navigation</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Helping families access local services, housing support, legal aid, and more.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg group hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-[#D6E4F0] rounded-lg flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined">groups</span>
+</div>
+<h4 class="font-bold font-headline text-lg mb-3">Community Events</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Regular gatherings that reduce isolation and build lasting friendships.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg group hover:shadow-lg transition-all">
+<div class="w-12 h-12 bg-[#D6E4F0] rounded-lg flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined">record_voice_over</span>
+</div>
+<h4 class="font-bold font-headline text-lg mb-3">Advocacy</h4>
+<p class="text-on-surface-variant text-sm leading-relaxed">Giving single parents a voice in the community and at the policy level.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="text-4xl font-black font-headline tracking-tight text-on-surface">Meet Our Team</h2>
+<p class="text-on-surface-variant mt-4 text-lg">Our team is made up of dedicated professionals, volunteers, and single parents themselves — all committed to building a stronger community.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Leader 1 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden group">
+<div class="aspect-[4/5] relative">
+<img alt="Executive Director" class="w-full h-full object-cover" data-alt="Professional headshot of Executive Director Marie Tremblay" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFWv_TA5XyqYoWNUWawSwvx2NGZCGMXLws32s9yx0ZGy4om2_pBlGrVToqSpE7uCzVOO1gVxCNNLQYpF4VQc2nI1ufEgT-ogYt66To1txTCrp4O3zKmJtVP40XLyp9hqvQJdnZNs7b3X6d7RhtyEDFQFs13D3LfBSuctmvqJY__P1-Zm0lv1-TPeIKo6D7PcydgvNzMNLgD210CGM1DH3Puef8WwA_57UMjWArPJ6nU8tKhRy48GiftrYWiPLyWFqfehIEN8MLeIE"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-6">
+<h4 class="font-bold font-headline text-lg">Marie Tremblay</h4>
+<p class="text-primary text-sm font-semibold tracking-wide uppercase mt-1">Executive Director</p>
+<p class="text-on-surface-variant text-sm mt-4 leading-snug italic">"Community is the only medicine that never runs out."</p>
+</div>
+</div>
+<!-- Leader 2 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden group">
+<div class="aspect-[4/5] relative">
+<img alt="Board Chair" class="w-full h-full object-cover" data-alt="Professional headshot of Board Chair David Chen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSsIgk2s8cZsLWvXHUzc48AN909v_g-kUuhEn-kBdfwOcQ5jCpgwWsuyNXAWoUHXgmfR-hZ_ygmRdExAs75mSjlS05uGBdJvfXkTxPlUmmESqPB6f2P2l1v45uDfrvYLc8CyfugqlSP3XF7GQyGsbhmiMJpou_jt35ifa8kMN8wptyPTBw640a0QPNJbtkU8RC9gcBRm9NKT_5WvA1tMrujD59eUrLNM52pggWNOqY_NKp0okrko2GKLi4Q-ot3mJb5CbwiQiVcfA"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-6">
+<h4 class="font-bold font-headline text-lg">David Chen</h4>
+<p class="text-primary text-sm font-semibold tracking-wide uppercase mt-1">Board Chair</p>
+<p class="text-on-surface-variant text-sm mt-4 leading-snug italic">"Building bridges across generations of Montreal families."</p>
+</div>
+</div>
+<!-- Leader 3 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden group">
+<div class="aspect-[4/5] relative">
+<img alt="Impact Director" class="w-full h-full object-cover" data-alt="Professional headshot of Impact Director Sarah Jenkins" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbVZIU0-yvC0VgFtvK5iUarI5a4xwS0dDuZbSdtPEGHb8STZc1BoP9OTCJlH0jUriNMRtmABBdBC0N5NnqxrP0aRTXzFRY8EKxee9GG6lfoZzvKm283DrQSwmFNoMyJIuo-E0aye2cYUEto8uEYZ-bBlBvpLlvNHnFukswRRGv_N_f-wbMABa5JJ66DUNlizhg3RCJN09on_i07lUGq0p-xxQkolVKlV7U869n6idfizZBJ5dWoULKc7jTHQVrhSQiIJql_hR8sEs"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-6">
+<h4 class="font-bold font-headline text-lg">Sarah Jenkins</h4>
+<p class="text-primary text-sm font-semibold tracking-wide uppercase mt-1">Impact Director</p>
+<p class="text-on-surface-variant text-sm mt-4 leading-snug italic">"Data tells the story; community writes the future."</p>
+</div>
+</div>
+<!-- Leader 4 -->
+<div class="bg-surface-container-lowest rounded-lg overflow-hidden group">
+<div class="aspect-[4/5] relative">
+<img alt="Treasurer" class="w-full h-full object-cover" data-alt="Professional headshot of Treasurer Robert Dubois" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDPTnYM9jLF2Iq3VTS89b0h78i4fCWdxrk5wLOF0n9PzEIeCkZpIdyYOG9YqCL86mGNNvcddLmmkR8tNIbYikRj2zEEvlSCYrzkbW9uqF37SJmFqSGXBwixYDaN_tbA6Sz4-6qbh5rlNYrTGnVAxnKYQGQheEf2_NwWbLtNROiNJhrJ5XYLC0qqqccH2PnKFvYJV9uqwc3HMRbjboqxyrpY5rETMSUCUVdMPMyZoDkmbBjFSVo-U_-XkCS3B6wtpZ8ogCiHycM3lg"/>
+<div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="p-6">
+<h4 class="font-bold font-headline text-lg">Robert Dubois</h4>
+<p class="text-primary text-sm font-semibold tracking-wide uppercase mt-1">Treasurer</p>
+<p class="text-on-surface-variant text-sm mt-4 leading-snug italic">"Fiscal responsibility is a form of empathy."</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Partners Section -->
+<section class="py-24 bg-surface-container-low" id="impact">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h2 class="text-4xl font-black font-headline tracking-tight text-on-surface">Our Partners</h2>
+<p class="text-on-surface-variant mt-4 text-lg max-w-2xl">We are proud to collaborate with a wide network of Montreal-based organizations, service providers, and community leaders who share our commitment to supporting single-parent families.</p>
+</div>
+<div class="grid lg:w-1/2 grid-cols-2 gap-4">
+<div class="space-y-4">
+<div class="bg-surface-container-lowest p-8 rounded-lg flex items-center justify-center h-32 grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+<span class="text-xl font-bold text-slate-400">CITY OF MONTREAL</span>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg flex items-center justify-center h-48 grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+<span class="text-xl font-bold text-slate-400">QUEBEC HEALTH</span>
+</div>
+</div>
+<div class="space-y-4 pt-8">
+<div class="bg-surface-container-lowest p-8 rounded-lg flex items-center justify-center h-48 grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+<span class="text-xl font-bold text-slate-400">FAMILY TRUST</span>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-lg flex items-center justify-center h-32 grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+<span class="text-xl font-bold text-slate-400">LOCAL EDU</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="bg-primary-gradient rounded-xl p-12 md:p-20 text-center text-on-primary shadow-2xl relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-10">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">volunteer_activism</span>
+</div>
+<h2 class="text-4xl md:text-5xl font-black font-headline tracking-tighter relative z-10">Support Our Mission</h2>
+<p class="mt-6 text-xl text-white/80 max-w-2xl mx-auto relative z-10">
+                        Your contribution ensures that no parent in Montreal has to face a crisis alone. Join our village today.
+                    </p>
+<div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center relative z-10">
+<a href="../Donate/code.html" class="bg-white text-primary px-10 py-4 rounded-md font-black uppercase tracking-widest hover:bg-primary-fixed transition-colors active:scale-95 duration-200">
+                            Donate Now
+                        </a>
+<a href="../Volunteer/code.html" class="bg-transparent border-2 border-white/30 text-white px-10 py-4 rounded-md font-black uppercase tracking-widest hover:bg-white/10 transition-colors">
+                            Become a Volunteer
+                        </a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-950 w-full py-12 px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 font-headline">Montreal Parental Village</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-slate-500 hover:text-[#2E75B6] transition-colors font-body text-sm" href="#">Privacy Policy</a>
+<a class="text-slate-500 hover:text-[#2E75B6] transition-colors font-body text-sm" href="#">Financial Transparency</a>
+<a class="text-slate-500 hover:text-[#2E75B6] transition-colors font-body text-sm" href="../Contact/code.html">Contact Us</a>
+<a class="text-slate-500 hover:text-[#2E75B6] transition-colors font-body text-sm" href="#">Careers</a>
+</div>
+<div class="text-slate-500 dark:text-slate-400 font-body text-xs text-center md:text-right">
+                © 2025 Montreal Parental Village. Registered Charity.
+            </div>
+</div>
+<div class="max-w-7xl mx-auto px-8 mt-8 pt-4 border-t border-slate-200 text-center">
+<p class="text-xs text-slate-400">367-925 Boulevard de Maisonneuve West, Montreal, QC H3A 0A5 &bull; info@montrealparentalvillage.ca</p>
+</div>
+</footer>
+<!-- The Village Beacon -->
+<div class="fixed bottom-10 right-10 z-[100]">
+<div class="bg-primary-container/80 backdrop-blur-xl p-6 rounded-lg shadow-2xl border border-white/20 max-w-xs group cursor-pointer active:scale-95 transition-all">
+<div class="flex items-start gap-4">
+<div class="bg-white rounded-full p-2 text-primary">
+<span class="material-symbols-outlined block" style="font-variation-settings: 'FILL' 1;">emergency</span>
+</div>
+<div>
+<h5 class="text-on-primary font-black font-headline text-sm tracking-tight">URGENT SUPPORT</h5>
+<p class="text-on-primary-container text-xs mt-1 leading-snug">Immediate help for Montreal parents in crisis. Tap to connect.</p>
+</div>
+</div>
+</div>
+</div>
+</body></html>
