@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Le Cercle Saint-Joseph | Montreal Parental Village</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1F4E79",
+            "primary-container": "#2E75B6",
+            "secondary": "#2E75B6",
+            "surface": "#EBF3FB",
+            "on-surface": "#1a1c1d",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#f4f3f5",
+            "surface-container": "#eeedf0",
+            "surface-container-high": "#e8e8ea",
+            "outline-variant": "#D6E4F0",
+            "background": "#EBF3FB",
+          },
+          fontFamily: {
+            "headline": ["Lora"],
+            "body": ["Open Sans"],
+            "label": ["Open Sans"]
+          },
+          borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+        },
+      },
+    }
+</script>
+<style>
+    body { font-family: 'Open Sans', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Lora', serif; }
+    .bg-primary-gradient { background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%); }
+    .glass-header { background: rgba(235, 243, 251, 0.8); backdrop-filter: blur(20px); }
+    .prose-story p { margin-bottom: 1.75rem; font-size: 1.125rem; line-height: 1.85; color: #374151; }
+    .prose-story blockquote { border-left: 4px solid #2E75B6; padding-left: 1.5rem; margin: 2.5rem 0; }
+    .prose-story blockquote p { font-style: italic; font-size: 1.25rem; color: #1F4E79; margin-bottom: 0.5rem; }
+    .prose-story blockquote cite { font-size: 0.875rem; font-weight: 700; color: #6b7280; font-style: normal; }
+    .chapter-heading { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: #2E75B6; margin-bottom: 0.5rem; }
+    .chapter-title { font-family: 'Lora', serif; font-size: 1.5rem; font-style: italic; color: #1F4E79; margin-bottom: 2rem; }
+</style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+
+<!-- Header -->
+<header class="sticky top-0 z-50 glass-header shadow-sm h-20">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-full">
+<a href="../code.html" class="flex items-center gap-3 text-xl font-bold tracking-tight text-[#1F4E79] font-headline">
+<img src="../MPV_logo.png" alt="MPV Logo" class="h-10 w-auto"/>
+Montreal Parental Village
+</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../Services/code.html">Get Help</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../Volunteer/code.html">Volunteer</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../About/code.html">About Us</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../Contact/code.html">Contact</a>
+</nav>
+<div class="flex items-center space-x-4">
+<a href="../Donate/code.html" class="px-5 py-2.5 rounded-md text-sm font-bold tracking-wider uppercase text-white bg-primary-gradient shadow-md active:scale-95 transition-all">Donate</a>
+</div>
+</div>
+</header>
+
+<main>
+<!-- Hero -->
+<section class="relative h-[60vh] min-h-[400px] flex items-end overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Parents gathering at a community table" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0vb0fD1PszJWUUdhqq28KixcbQULtXsqoddeycIrNqm4Rr_wdjfWBCEqFGArxPc4TDD4vLkPLoeEd7DiWm_1BfCY-1E6TBBTnEHO6ZFPoHF6NBZX3nMrYZYLsEt_BFEAq-FR34niqRH3yVQsMLTYLkqi4s3NzWhXv2sAY6bYGzEPazG_cuzS8z1DThRJW7G7HMDqnWx9sfXQbuHIqCXXY0HTQJUiYzjrTF_01EDg16ONDHVbR5bNwKR8h2UFrvK1OohVuxAuw4-8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto px-6 pb-16 w-full">
+<span class="inline-block bg-primary text-white text-[10px] font-bold tracking-widest uppercase px-3 py-1 mb-5 rounded-sm">Impact Story</span>
+<h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">Le Cercle Saint-Joseph</h1>
+<p class="text-white/80 text-lg max-w-2xl">How five single parents, a borrowed kitchen table, and a pot of too-strong coffee quietly rewrote the map of family support in Montréal.</p>
+</div>
+</section>
+
+<!-- Article Meta -->
+<div class="bg-surface-container-low py-6 border-b border-outline-variant/30">
+<div class="max-w-4xl mx-auto px-6 flex flex-wrap items-center gap-6 text-sm text-slate-500">
+<span class="flex items-center gap-2"><span class="material-symbols-outlined text-base text-[#2E75B6]">calendar_today</span> Le Plateau-Mont-Royal, Montréal</span>
+<span class="flex items-center gap-2"><span class="material-symbols-outlined text-base text-[#2E75B6]">schedule</span> 8 min read</span>
+<a href="../code.html" class="flex items-center gap-1 text-[#2E75B6] font-bold hover:underline ml-auto">
+<span class="material-symbols-outlined text-base">arrow_back</span> Back to Home
+</a>
+</div>
+</div>
+
+<!-- Story Body -->
+<article class="max-w-4xl mx-auto px-6 py-20 prose-story">
+
+  <!-- Chapter 1 -->
+  <div class="mb-16">
+    <p class="chapter-heading">Chapter One</p>
+    <p class="chapter-title">The night it rained and nobody left</p>
+
+    <p>It started, as so many things on the Plateau do, with bad weather and a refusal to go home.</p>
+
+    <p>It was a Tuesday in late November — the kind of evening where the sleet comes in sideways and the sidewalks on rue Saint-Joseph Est gleam like old mirrors. Nadia Tremblay-Côté had just put her daughter to bed and opened the door to let her neighbour in before the wind could. That neighbour, Oumar Diallo, was holding a sleeping three-year-old against his shoulder and a bottle of wine he no longer had a free hand to open.</p>
+
+    <p>They had met at the dépanneur six months earlier, the way all true friendships on the Plateau begin — arguing politely over the last good avocado. Oumar had let her have it. Nadia had never quite forgiven herself for taking it.</p>
+
+    <p>By ten o'clock the rain hadn't stopped and two more neighbours had knocked. Saoirse Gallagher-Morin from the third floor, who was a nurse and worked nights and had perfected the art of sleeping in four-hour intervals. And then old Jules Lafortune — not old, really, forty-six, but the kind of person who seemed to have always existed — who had moved back to the Plateau after a divorce and was raising twin boys in a five-and-a-half that smelled of turpentine and pasta.</p>
+
+    <p>They sat around Nadia's kitchen table. The children were asleep. Someone opened the wine. And for the first time in longer than any of them could exactly remember, nobody performed being fine.</p>
+
+    <blockquote>
+      <p>"I kept waiting for someone to ask if I needed help. After a while I realized everyone was waiting for the same thing."</p>
+      <cite>— Nadia Tremblay-Côté, co-founder</cite>
+    </blockquote>
+
+    <p>They talked until two in the morning. About the specific exhaustion that has no name — the one that isn't tiredness exactly, but the weight of being the only adult in a home. About the impossibility of being sick. About the guilt of wanting, sometimes, just one evening where no one needed anything from you.</p>
+
+    <p>Nobody solved anything that night. But before they left, Oumar said: <em>"Same time next week?"</em> And everyone said yes.</p>
+  </div>
+
+  <!-- Chapter 2 -->
+  <div class="mb-16">
+    <p class="chapter-heading">Chapter Two</p>
+    <p class="chapter-title">The founding five</p>
+
+    <p>Within a month there were five regulars. The group had no name, no structure, and no agenda, which everyone agreed was exactly right.</p>
+
+    <!-- Founder Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 my-12 not-prose">
+      <div class="bg-surface-container-lowest rounded-xl p-6 border-l-4 border-[#1F4E79]">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-primary-gradient flex items-center justify-center text-white font-bold text-sm font-label">NT</div>
+          <div>
+            <p class="font-bold text-[#1F4E79] font-headline">Nadia Tremblay-Côté</p>
+          </div>
+        </div>
+        <p class="text-sm text-slate-500 leading-relaxed">Graphic designer, mother of Léa, 6. Grew up in Rimouski, moved to Plateau for love, stayed for the bagels.</p>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 border-l-4 border-[#2E75B6]">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-[#2E75B6] flex items-center justify-center text-white font-bold text-sm font-label">OD</div>
+          <div>
+            <p class="font-bold text-[#1F4E79] font-headline">Oumar Diallo</p>
+          </div>
+        </div>
+        <p class="text-sm text-slate-500 leading-relaxed">Software developer, father of Amadou, 3. Came from Dakar via Bordeaux. Makes the best thiéboudienne in two arrondissements.</p>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 border-l-4 border-[#2E75B6]">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-[#2E75B6] flex items-center justify-center text-white font-bold text-sm font-label">SG</div>
+          <div>
+            <p class="font-bold text-[#1F4E79] font-headline">Saoirse Gallagher-Morin</p>
+          </div>
+        </div>
+        <p class="text-sm text-slate-500 leading-relaxed">Night-shift nurse at Hôtel-Dieu, mother of Finn, 8. Irish-Québécoise. Has strong opinions about sleep and weather.</p>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 border-l-4 border-[#1F4E79]">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-primary-gradient flex items-center justify-center text-white font-bold text-sm font-label">JL</div>
+          <div>
+            <p class="font-bold text-[#1F4E79] font-headline">Jules Lafortune</p>
+          </div>
+        </div>
+        <p class="text-sm text-slate-500 leading-relaxed">Scenery painter, father of Baptiste and Simon, 9. Cooks in large quantities. Knows every hardware store within five métro stops.</p>
+      </div>
+      <div class="bg-surface-container-lowest rounded-xl p-6 border-l-4 border-[#2E75B6] md:col-span-2">
+        <div class="flex items-center gap-3 mb-3">
+          <div class="w-10 h-10 rounded-full bg-[#2E75B6] flex items-center justify-center text-white font-bold text-sm font-label">PB</div>
+          <div>
+            <p class="font-bold text-[#1F4E79] font-headline">Priya Balasubramanian</p>
+          </div>
+        </div>
+        <p class="text-sm text-slate-500 leading-relaxed">Urban planner for the Ville, mother of Arun, 4. Joined after Oumar left a handwritten note under her door. Became its quiet architect.</p>
+      </div>
+    </div>
+
+    <p>It was Priya — methodical, warm, and constitutionally incapable of letting a good idea stay disorganized — who first suggested they might actually be onto something. She had read studies about isolation among single-parent households. She had seen the numbers in her own planning work: the Plateau had one of the city's highest concentrations of monoparental families, and almost no infrastructure built specifically for them.</p>
+
+    <p>"We're not a support group," Jules protested, refilling his glass. "Support groups have facilitators and worksheets."</p>
+
+    <p>"We could just be a circle," said Nadia. <em>"Le Cercle."</em></p>
+
+    <p>It stuck.</p>
+  </div>
+
+  <!-- Chapter 3 -->
+  <div class="mb-16">
+    <p class="chapter-heading">Chapter Three</p>
+    <p class="chapter-title">The thing nobody expected: it worked</p>
+
+    <p>By spring, word had spread the way it only can on the Plateau — through conversations at Marché Jean-Talon, at the parc Laurier sandbox, in the queue at the caisse populaire. Someone told someone. That someone texted three others.</p>
+
+    <p>The group outgrew Nadia's kitchen. They migrated to the salle communautaire of a church on rue Gilford that rented its basement for twenty dollars a night and asked no questions about wine. There were twelve parents. Then nineteen. Then, by June, thirty-one.</p>
+
+    <p>They were careful about what they were. It was not therapy. It was not a co-op. It was not a formal network. It was, as Priya described it in the Google Doc she used to keep notes that no one had asked her to keep: <em>"a recurring dinner party where the real agenda is survival."</em></p>
+
+    <p>But certain things happened organically that began to look, from the outside, like structure. A shared spreadsheet emerged — started by Oumar at midnight during a particularly bad week — that listed who could do what and when. Emergency childcare swaps. A ride to a medical appointment. A meal left at a door when someone had the flu. Someone who could fix a leaking faucet. Someone who had a car and didn't mind driving to IKEA.</p>
+
+    <blockquote>
+      <p>"We called it the spreadsheet. It had no name. It became, I think, the most useful document in my life after my child's health card."</p>
+      <cite>— Oumar Diallo, co-founder</cite>
+    </blockquote>
+  </div>
+
+  <!-- Chapter 4 -->
+  <div class="mb-16">
+    <p class="chapter-heading">Chapter Four</p>
+    <p class="chapter-title">The summer of difficult questions</p>
+
+    <p>Growth brought friction. This, too, was expected — or would have been, if anyone had expected any of this.</p>
+
+    <p>The question of money arrived that summer, as it always does. Priya had quietly applied for a small grant from the arrondissement — two thousand dollars, enough to cover the church basement for a year and print some flyers. She told the group at the July meeting. Jules was uneasy. "The moment we take money," he said, "we have to answer to something other than each other."</p>
+
+    <p>They debated it for three weeks, across two meetings and a very long group text thread. In the end, they took the grant. And Jules was right and wrong in equal measure: it did change things. But the change was, mostly, good. Priya used forty dollars of it to buy a proper coffee urn, and that alone was worth it.</p>
+
+    <p>The harder question came in August, when a parent arrived at a meeting in crisis — not the comfortable, manageable kind of tired they all shared, but something deeper and more urgent. Saoirse, who had seen this before, sat with her until midnight. Afterward, the group talked about what they were and weren't equipped to handle.</p>
+
+    <p>They reached out to a social worker named Dominique who lived two streets over and had been coming to meetings for two months without ever quite joining. She said she'd been hoping they'd ask.</p>
+  </div>
+
+  <!-- Chapter 5 -->
+  <div class="mb-16">
+    <p class="chapter-heading">Chapter Five</p>
+    <p class="chapter-title">How a Plateau kitchen table became a city</p>
+
+    <p>The call came in October of the second year, from a parent in Rosemont who had read a small piece about Le Cercle in a neighbourhood newsletter. Then from Verdun. Then from Saint-Henri, where a school social worker had heard about the spreadsheet and wanted to know if it could work in her community.</p>
+
+    <p>Priya drove to every meeting. She brought the same Google Doc, the same principles they had landed on after that difficult summer, and the same advice: <em>don't start with a structure, start with a table and too much coffee.</em></p>
+
+    <!-- Timeline -->
+    <div class="my-12 space-y-0 not-prose">
+      <div class="flex gap-6 items-start">
+        <div class="flex flex-col items-center">
+          <div class="w-4 h-4 rounded-full bg-[#1F4E79] mt-1 shrink-0"></div>
+          <div class="w-0.5 h-full bg-[#D6E4F0] mt-1"></div>
+        </div>
+        <div class="pb-10">
+          <p class="font-bold text-[#1F4E79] font-headline text-sm uppercase tracking-widest mb-1">November — Year 1</p>
+          <p class="text-slate-600 text-sm leading-relaxed">Rue Saint-Joseph Est — five parents, one kitchen table, one bottle of wine</p>
+        </div>
+      </div>
+      <div class="flex gap-6 items-start">
+        <div class="flex flex-col items-center">
+          <div class="w-4 h-4 rounded-full bg-[#2E75B6] mt-1 shrink-0"></div>
+          <div class="w-0.5 h-full bg-[#D6E4F0] mt-1"></div>
+        </div>
+        <div class="pb-10">
+          <p class="font-bold text-[#1F4E79] font-headline text-sm uppercase tracking-widest mb-1">Spring — Year 1</p>
+          <p class="text-slate-600 text-sm leading-relaxed">Église Gilford basement — 31 members, one shared spreadsheet, the first emergency childcare swap</p>
+        </div>
+      </div>
+      <div class="flex gap-6 items-start">
+        <div class="flex flex-col items-center">
+          <div class="w-4 h-4 rounded-full bg-[#1F4E79] mt-1 shrink-0"></div>
+          <div class="w-0.5 h-full bg-[#D6E4F0] mt-1"></div>
+        </div>
+        <div class="pb-10">
+          <p class="font-bold text-[#1F4E79] font-headline text-sm uppercase tracking-widest mb-1">Summer — Year 1</p>
+          <p class="text-slate-600 text-sm leading-relaxed">First grant — arrondissement funding, coffee urn, a social worker named Dominique</p>
+        </div>
+      </div>
+      <div class="flex gap-6 items-start">
+        <div class="flex flex-col items-center">
+          <div class="w-4 h-4 rounded-full bg-[#2E75B6] mt-1 shrink-0"></div>
+          <div class="w-0.5 h-full bg-[#D6E4F0] mt-1"></div>
+        </div>
+        <div class="pb-10">
+          <p class="font-bold text-[#1F4E79] font-headline text-sm uppercase tracking-widest mb-1">Year 2</p>
+          <p class="text-slate-600 text-sm leading-relaxed">Rosemont, Verdun, Saint-Henri — three new circles, same model, different kitchens</p>
+        </div>
+      </div>
+      <div class="flex gap-6 items-start">
+        <div class="flex flex-col items-center">
+          <div class="w-4 h-4 rounded-full bg-[#1F4E79] mt-1 shrink-0"></div>
+          <div class="w-0.5 h-full bg-[#D6E4F0] mt-1"></div>
+        </div>
+        <div class="pb-10">
+          <p class="font-bold text-[#1F4E79] font-headline text-sm uppercase tracking-widest mb-1">Year 3</p>
+          <p class="text-slate-600 text-sm leading-relaxed">Le Réseau des Cercles — eleven arrondissements, 400 families, one shared online platform built by Oumar on a weekend</p>
+        </div>
+      </div>
+      <div class="flex gap-6 items-start">
+        <div class="flex flex-col items-center">
+          <div class="w-4 h-4 rounded-full bg-[#2E75B6] mt-1 shrink-0"></div>
+        </div>
+        <div class="pb-4">
+          <p class="font-bold text-[#1F4E79] font-headline text-sm uppercase tracking-widest mb-1">Year 4</p>
+          <p class="text-slate-600 text-sm leading-relaxed">City of Montréal partnership — official recognition, a real budget, a coordinator, and a small office on Avenue du Parc that always smells of coffee</p>
+        </div>
+      </div>
+    </div>
+
+    <p>They were written up, eventually, in Le Devoir. A researcher from UQAM studied them for two years and wrote a paper whose title — <em>L'infrastructure informelle du soin : réseaux monoparentaux en milieu urbain</em> — made Saoirse laugh until she cried. Jules had it framed and hung it in his studio, next to a drawing Baptiste made of "dad's coffee friends."</p>
+
+    <p>When asked, in interview after interview, what the secret was, each of the five founders gave a different answer. Priya talked about trust built slowly, person by person. Oumar talked about the spreadsheet — always the spreadsheet. Jules said there was no secret, only showing up. Saoirse said it was knowing what you couldn't do. And Nadia — who still hosted the original Plateau circle in her apartment when everyone could fit, which was rarer now — said it simply:</p>
+
+    <blockquote>
+      <p>"We stopped waiting for someone else to build what we needed. We just made it ourselves, the only way you can — badly, at first, and together."</p>
+      <cite>— Nadia Tremblay-Côté</cite>
+    </blockquote>
+
+    <p>Outside, on rue Saint-Joseph Est, the sleet had started again. It does that, in November. The lights were on in the windows of a hundred apartments, each one its own small world, a little less alone than it used to be.</p>
+
+    <p class="text-center text-slate-400 tracking-widest text-xl mt-12">· · ·</p>
+  </div>
+
+</article>
+
+<!-- CTA Section -->
+<section class="py-20 bg-[#1F4E79]">
+<div class="max-w-3xl mx-auto px-6 text-center">
+<h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Your story could start the same way.</h2>
+<p class="text-white/80 text-lg mb-10 leading-relaxed">Every village begins with someone opening the door. Join Montreal Parental Village and find your circle.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="../Volunteer/code.html" class="px-8 py-4 bg-white text-[#1F4E79] rounded-md font-bold tracking-wider uppercase shadow-xl hover:bg-[#EBF3FB] transition-all">Get Involved</a>
+<a href="../Donate/code.html" class="px-8 py-4 bg-[#2E75B6] text-white rounded-md font-bold tracking-wider uppercase shadow-xl hover:opacity-90 transition-all">Donate Now</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-slate-100 pt-16 pb-8">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="text-lg font-bold text-slate-900">Montreal Parental Village</div>
+<p class="text-sm text-slate-500 leading-relaxed">A dedicated nonprofit community providing real support for single parents. Based in Montreal, serving the soul of our city.</p>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-widest text-slate-900 mb-6">Resources</h4>
+<ul class="space-y-4">
+<li><a class="text-sm text-slate-500 hover:text-[#2E75B6] transition-colors" href="../Services/code.html">Get Help</a></li>
+<li><a class="text-sm text-slate-500 hover:text-[#2E75B6] transition-colors" href="../Volunteer/code.html">Volunteer</a></li>
+<li><a class="text-sm text-slate-500 hover:text-[#2E75B6] transition-colors" href="../Donate/code.html">Donate</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-widest text-slate-900 mb-6">Organization</h4>
+<ul class="space-y-4">
+<li><a class="text-sm text-slate-500 hover:text-[#2E75B6] transition-colors" href="../About/code.html">About Us</a></li>
+<li><a class="text-sm text-slate-500 hover:text-[#2E75B6] transition-colors" href="../Contact/code.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-widest text-slate-900 mb-6">Contact</h4>
+<p class="text-sm text-slate-500 leading-relaxed mb-4">367-925 Boulevard de Maisonneuve West<br/>Montréal, QC H3A 0A5</p>
+<p class="text-sm text-slate-500">info@montrealparentalvillage.ca</p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-200">
+<div class="text-sm font-medium text-slate-500 text-center">© 2025 Montreal Parental Village. Registered Charity.</div>
+</div>
+</footer>
+
+</main>
+</body>
+</html>
