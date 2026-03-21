@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Subscribe to Our Newsletter | Montreal Parental Village</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1F4E79",
+            "primary-container": "#2E75B6",
+            "secondary": "#2E75B6",
+            "surface": "#EBF3FB",
+            "on-surface": "#1a1c1d",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#f4f3f5",
+            "outline-variant": "#D6E4F0",
+            "background": "#EBF3FB",
+          },
+          fontFamily: { "headline": ["Lora"], "body": ["Open Sans"] },
+          borderRadius: {"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},
+        },
+      },
+    }
+</script>
+<style>
+    body { font-family: 'Open Sans', sans-serif; }
+    h1,h2,h3 { font-family: 'Lora', serif; }
+    .bg-primary-gradient { background: linear-gradient(135deg, #1F4E79 0%, #2E75B6 100%); }
+    .glass-header { background: rgba(235, 243, 251, 0.8); backdrop-filter: blur(20px); }
+    .input-field {
+        width: 100%; padding: 0.875rem 1rem;
+        background: #f4f3f5; border: none; border-radius: 0.25rem;
+        border-bottom: 2px solid transparent;
+        font-family: 'Open Sans', sans-serif; font-size: 0.95rem;
+        color: #1a1c1d; transition: all 0.2s; outline: none;
+    }
+    .input-field:focus { background: #ffffff; border-bottom-color: #1F4E79; }
+    .input-field::placeholder { color: #9ca3af; }
+</style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+
+<!-- Header -->
+<header class="sticky top-0 z-50 glass-header shadow-sm h-20">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 h-full">
+<a href="../code.html" class="flex items-center gap-3 text-xl font-bold tracking-tight text-[#1F4E79] font-headline">
+<img src="../MPV_logo.png" alt="MPV Logo" class="h-10 w-auto"/>
+Montreal Parental Village
+</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../Services/code.html">Get Help</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../Volunteer/code.html">Volunteer</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../About/code.html">About Us</a>
+<a class="text-slate-600 hover:text-[#2E75B6] transition-colors text-sm font-medium" href="../Contact/code.html">Contact</a>
+</nav>
+<a href="../Donate/code.html" class="px-5 py-2.5 rounded-md text-sm font-bold tracking-wider uppercase text-white bg-primary-gradient shadow-md active:scale-95 transition-all">Donate</a>
+</div>
+</header>
+
+<main>
+<!-- Hero -->
+<section class="py-20 bg-[#1F4E79] relative overflow-hidden">
+<div class="absolute inset-0 opacity-10">
+<div class="absolute top-10 left-10 w-64 h-64 rounded-full bg-[#2E75B6] blur-3xl"></div>
+<div class="absolute bottom-0 right-20 w-96 h-96 rounded-full bg-white blur-3xl"></div>
+</div>
+<div class="relative max-w-3xl mx-auto px-6 text-center">
+<span class="material-symbols-outlined text-5xl text-[#D6E4F0] mb-6 block" style="font-variation-settings:'FILL' 1;">mark_email_read</span>
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">Stay Connected with the Village</h1>
+<p class="text-xl text-white/80 leading-relaxed">Monthly parenting tips, community updates, upcoming events, and real stories from Montreal single parents — delivered straight to your inbox.</p>
+</div>
+</section>
+
+<!-- Form Section -->
+<section class="py-20">
+<div class="max-w-2xl mx-auto px-6">
+
+  <!-- What you'll get -->
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-16">
+    <div class="text-center p-6 bg-surface-container-lowest rounded-xl shadow-sm">
+      <span class="material-symbols-outlined text-3xl text-[#2E75B6] mb-3 block" style="font-variation-settings:'FILL' 1;">tips_and_updates</span>
+      <p class="font-bold text-[#1F4E79] text-sm">Parenting Tips</p>
+      <p class="text-xs text-slate-400 mt-1">Practical advice from professionals and fellow parents</p>
+    </div>
+    <div class="text-center p-6 bg-surface-container-lowest rounded-xl shadow-sm">
+      <span class="material-symbols-outlined text-3xl text-[#2E75B6] mb-3 block" style="font-variation-settings:'FILL' 1;">event</span>
+      <p class="font-bold text-[#1F4E79] text-sm">Community Events</p>
+      <p class="text-xs text-slate-400 mt-1">Be first to know about workshops and gatherings</p>
+    </div>
+    <div class="text-center p-6 bg-surface-container-lowest rounded-xl shadow-sm">
+      <span class="material-symbols-outlined text-3xl text-[#2E75B6] mb-3 block" style="font-variation-settings:'FILL' 1;">volunteer_activism</span>
+      <p class="font-bold text-[#1F4E79] text-sm">Impact Stories</p>
+      <p class="text-xs text-slate-400 mt-1">Real stories from families in our community</p>
+    </div>
+  </div>
+
+  <!-- Signup Form -->
+  <!--
+    SETUP INSTRUCTIONS:
+    1. Go to https://formspree.io and create a free account
+    2. Create a new form and copy your form ID (looks like: xpznkgvw)
+    3. Replace YOUR_FORMSPREE_ID below with your actual form ID
+    4. Formspree will email you every new subscriber
+  -->
+  <div class="bg-surface-container-lowest rounded-xl shadow-lg p-10">
+    <h2 class="text-2xl font-bold text-[#1F4E79] mb-2">Join Our Mailing List</h2>
+    <p class="text-slate-500 text-sm mb-8">Free, monthly, and unsubscribe anytime.</p>
+
+    <form id="newsletter-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <!-- Hidden field to tag these as newsletter signups -->
+      <input type="hidden" name="_subject" value="New Newsletter Subscriber — Montreal Parental Village"/>
+      <input type="hidden" name="form_type" value="newsletter_signup"/>
+
+      <div class="space-y-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div>
+            <label class="block text-xs font-bold text-[#1F4E79] uppercase tracking-widest mb-2">First Name *</label>
+            <input class="input-field" type="text" name="first_name" placeholder="Marie" required/>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-[#1F4E79] uppercase tracking-widest mb-2">Last Name</label>
+            <input class="input-field" type="text" name="last_name" placeholder="Tremblay"/>
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-[#1F4E79] uppercase tracking-widest mb-2">Email Address *</label>
+          <input class="input-field" type="email" name="email" placeholder="you@example.com" required/>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-[#1F4E79] uppercase tracking-widest mb-2">I am a</label>
+          <select class="input-field" name="role">
+            <option value="">Select one (optional)</option>
+            <option value="single_parent">Single Parent</option>
+            <option value="volunteer">Volunteer</option>
+            <option value="donor">Donor / Supporter</option>
+            <option value="partner">Partner / Organization</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-[#1F4E79] uppercase tracking-widest mb-2">Neighbourhood (optional)</label>
+          <input class="input-field" type="text" name="neighbourhood" placeholder="e.g. Plateau, Rosemont, Verdun…"/>
+        </div>
+
+        <!-- Honeypot spam field — hidden from real users -->
+        <input type="text" name="_gotcha" style="display:none"/>
+
+        <button type="submit" id="submit-btn" class="w-full bg-primary-gradient text-white py-4 rounded-md font-bold tracking-wider uppercase shadow-lg active:scale-95 transition-transform text-sm mt-4">
+          Subscribe to Newsletter
+        </button>
+
+        <p class="text-center text-xs text-slate-400">
+          We respect your privacy. No spam, ever. Unsubscribe at any time.
+        </p>
+      </div>
+    </form>
+
+    <!-- Success Message (hidden by default) -->
+    <div id="success-msg" class="hidden text-center py-10">
+      <span class="material-symbols-outlined text-6xl text-[#2E75B6] mb-4 block" style="font-variation-settings:'FILL' 1;">check_circle</span>
+      <h3 class="text-2xl font-bold text-[#1F4E79] mb-3">You're in the Village!</h3>
+      <p class="text-slate-500 mb-8">Thanks for subscribing. Your first newsletter will arrive soon.</p>
+      <a href="../code.html" class="px-8 py-3 bg-primary-gradient text-white rounded-md font-bold tracking-wider uppercase text-sm">Back to Home</a>
+    </div>
+  </div>
+
+  <!-- Privacy note -->
+  <p class="text-center text-xs text-slate-400 mt-6">
+    Montreal Parental Village will never share your information with third parties.<br/>
+    <a href="../Contact/code.html" class="text-[#2E75B6] hover:underline">Contact us</a> if you have any questions.
+  </p>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-100 pt-12 pb-8">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="text-sm font-medium text-slate-500">© 2025 Montreal Parental Village. Registered Charity.</div>
+<div class="text-sm text-slate-400">367-925 Boul. de Maisonneuve West, Montréal, QC H3A 0A5</div>
+</div>
+</footer>
+
+<script>
+(function(){
+  var form = document.getElementById('newsletter-form');
+  var successMsg = document.getElementById('success-msg');
+  var submitBtn = document.getElementById('submit-btn');
+
+  form.addEventListener('submit', function(e){
+    // Only intercept if Formspree ID has been set
+    if(form.action.includes('YOUR_FORMSPREE_ID')){
+      e.preventDefault();
+      // Show success anyway for demo purposes
+      form.style.display = 'none';
+      successMsg.classList.remove('hidden');
+      return;
+    }
+    // Otherwise let Formspree handle it via AJAX
+    e.preventDefault();
+    submitBtn.textContent = 'Subscribing…';
+    submitBtn.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    }).then(function(res){
+      if(res.ok){
+        form.style.display = 'none';
+        successMsg.classList.remove('hidden');
+      } else {
+        submitBtn.textContent = 'Subscribe to Newsletter';
+        submitBtn.disabled = false;
+        alert('Something went wrong. Please try again.');
+      }
+    }).catch(function(){
+      submitBtn.textContent = 'Subscribe to Newsletter';
+      submitBtn.disabled = false;
+      alert('Something went wrong. Please try again.');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
